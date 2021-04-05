@@ -15,9 +15,21 @@
     <ClCompile Include="..\src\main.c">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\config\Config.c">
+      <Filter>src\config</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\wtapi.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\config\Config.h">
+      <Filter>src\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BasicType.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Constants.h">
       <Filter>src\include</Filter>
     </ClInclude>
   </ItemGroup>
